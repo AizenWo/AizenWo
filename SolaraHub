@@ -89,7 +89,7 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "Arsenal",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/antisocialb2/Spimine_ARSENAL/main/Spimine_ARSENAL.lua", true))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
    end,
 })
 
@@ -343,5 +343,26 @@ local Button = MainTab:CreateButton({
    Name = "Type://Soul (USE AT YOUR OWN RISK)",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/newtype/main/soul"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Da Hood Gui",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Da Hood Lock",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Blox Fruit Hitbox expander",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/vkTrolls/Bounty-Hunter-Kit/main/solaraversion"))()
    end,
 })
