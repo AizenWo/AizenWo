@@ -89,7 +89,7 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "Arsenal",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/antisocialb2/Spimine_ARSENAL/main/Spimine_ARSENAL.lua", true))()
    end,
 })
 
