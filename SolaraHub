@@ -401,3 +401,24 @@ local Button = MainTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Your Bizzare Adventure",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Vuffi2007/YBA-Teleport-to-Items-GUI/main/YBA-Teleport-to-Items-GUI.lua"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Bee Swarm Simulator",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Historia00012/HISTORIAHUB/main/BSS%20FREE"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Attack on titan revolution",
+   Callback = function()
+   loadstring(game:HttpGet(" https://raw.githubusercontent.com/JustLevel/working-newbie/main/AOTR.lua"))()
+   end,
+})
