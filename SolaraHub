@@ -366,3 +366,38 @@ local Button = MainTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/vkTrolls/Bounty-Hunter-Kit/main/solaraversion"))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Bloxburg",
+   Callback = function()
+   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-BlueRed-Hub-V14-14509"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Build A Boat",
+   Callback = function()
+   loadstring(game:HttpGet("https://scriptblox.com/raw/Build-A-Boat-For-Treasure-utoFrm-Gold-13684"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   loadstring(game:HttpGet("https://scriptblox.com/raw/Piggy-BREAKOUT-CHAPTER-Vynixius-4914"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Sols RNG",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/MercyfulSmoked/Xeo/main/Main.lua'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Prison Life",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+   end,
+})
