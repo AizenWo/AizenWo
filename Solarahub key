@@ -448,9 +448,9 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Type://Soul (USE AT YOUR OWN RISK)",
+   Name = "Type://Soul (Safe!)",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/newtype/main/soul"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AizenWo/AizenWo/main/Type%20Soul"))()
    end,
 })
 
